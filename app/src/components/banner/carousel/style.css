@@ -1,0 +1,35 @@
+div,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.banner{
+    height: 160px;
+    width: 100%;
+}
+.banner .center{
+    float: left;
+    width: 100%;
+}
+.banner .bottom{
+    float: right;
+    margin-top: -30px;
+    margin-right: 30px;
+    width: 50px;
+    height: 10px;
+}
+.banner .bottom ul{
+    right: 0;
+}
+.banner .bottom li{
+    display: inline-block;
+    background:#A1A1A3;
+    width: 10px;
+    height: 10px;
+    margin-left: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner .bottom .active{
+    background: white;
+}

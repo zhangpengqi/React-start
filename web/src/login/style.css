@@ -1,0 +1,50 @@
+/*body{*/
+/*    background-color: #FFFFFF;*/
+/*    width: 100%;*/
+/*    height:500px;*/
+/*}*/
+.login{
+    width: 300px;
+    margin: 200px auto;
+}
+.title{
+    height: 20px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+.title img{
+    float: left;
+    width:20px;
+    height:20px;
+}
+.message{
+    text-align: center;
+    height: 30px;
+    padding: 8px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666660;
+    background-color: #F1F2F2;
+}
+.userName,.passWord{
+    outline: none;
+    display: inline-block;
+    padding: 8px;
+    height: 40px;
+    width: 80%;
+    margin: auto 10% ;
+    font-size: 16px;
+    border: none;
+    border-bottom:1px solid #F4F4F4;
+}
+.submit{
+    display: inline-block;
+    width: 80%;
+    background-color: #1D91C4;
+    height: 40px;
+    margin-left: 10%;
+    border: none;
+    margin-top: 30px;
+    color: white;
+}

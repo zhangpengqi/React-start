@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阿里云</title>
+    <link rel="stylesheet" href="css/ali.css" >
+    <script src="js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div class="global">
+        <div class="top">
+            <div id="center" class="center">
+                <img id="center-img" src="img/TB1Eeesu8v0gK0jSZKbXXbK2FXa-1880-640.jpg"/>
+            </div>
+            <div class="top-bottom">
+                <ul>
+                    <li  class="round"/>
+                    <li  class="round"/>
+                    <li  class="round"/>
+                    <li  class="round"/>
+                    <li  class="round"/>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="gg">
+                <div class="gg-1">
+                    <a href="/">
+                        <div class="gg-title">新人礼遇</div>
+                        <div class="gg-desc">企业级高性能实例低至0.8折入门级实例1C2G89元/年起</div>
+                        <img src="img/TB1bFEyrBr0gK0jSZFnXXbRRXXa-134-134.png"/>
+                    </a>
+                    </div>
+                <div class="gg-2">
+                    <a href="/">
+                        <div class="gg-title">商标自助注册</div>
+                        <div class="gg-desc">高效极速递交商标局，全流程线上进度一目了然</div>
+                        <img src="img/TB1jV1lcF67gK0jSZPfXXahhFXa-128-129.png"/>
+                    </a>
+                </div>
+                <div class="gg-3">
+                    <a href="/">
+                    <div class="gg-title">重磅发布</div>
+                    <div class="gg-desc">在线看大会，就来云栖号！ 每天都有行业专家直播！</div>
+                    <img src="img/TB1YwE.hoH1gK0jSZSyXXXtlpXa-135-134.png"/>
+                    </a>
+                </div>
+            </div>
+
+            <!--登录前-->
+            <div class="user-info-no-login">
+                <div style="padding-top:50px;">
+                    <div class="user-head">
+                        <img src="img/TB1Sv5PV9zqK1RjSZPcXXbTepXa-80-80.png" style="height: 100%;">
+                    </div>
+                </div>
+                <div class="user-name">hi,欢迎来到阿里云</div>
+                <div class="user-btn">
+                    <a class="btn-login" href="./login.html">登录</a>
+                    <a class="btn-sign">注册</a>
+                </div>
+                <div class="low-link" style="margin-top:50px;">
+                    <a href="/">全民云计算</a>
+                    <span>&nbsp;|&nbsp;</span>
+                    <a href="/">免费试用</a>
+                </div>
+            </div>
+
+            <!--登录成功后-->
+            <div class="login-success">
+				<div class="success-head">
+					<img src="img/TB1Sv5PV9zqK1RjSZPcXXbTepXa-80-80.png" class="avatar">
+				</div>
+				<div class="login-tex">Hi!<span class="username"></span></div>
+				<div class="record">备案专区</div>
+				<div class="login-info">
+					<div class="info-list">
+						<span>0</span>
+						<div>待付款</div>
+					</div>
+					<div class="info-list">
+						<span>0</span>
+						<div>待续费</div>
+					</div>
+					<div class="info-list">
+						<span class="point">0</span>
+						<div>积分</div>
+					</div>
+					<div class="info-list">
+						<span>0</span>
+						<div>代金券</div>
+					</div>
+					<div class="info-list">
+						<span class="balance">0</span>
+						<div>余额</div>
+					</div>
+					<div class="info-list">
+						<span class="mes">0</span>
+						<div>站内信</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</body>
+<script>
+    $(function(){
+        var index=0;
+        var images=["img/TB1Eeesu8v0gK0jSZKbXXbK2FXa-1880-640.jpg","img/TB1a.pxu.H1gK0jSZSyXXXtlpXa-1880-640.jpg","img/TB1.fK.uebviK0jSZFNXXaApXXa-1880-640.jpg","img/TB1kG0Mu.T1gK0jSZFhXXaAtVXa-1880-640.jpg","img/TB1uxeouxn1gK0jSZKPXXXvUXXa-1880-640.png"]
+        $($(".round")[index]).css({"background-color":"#F6F6F7"});
+        //定时切换图
+        var timer=setInterval(run,3000);
+        function run(){
+            index++;
+            if(index==images.length){
+                index=0;
+            }
+            showImg(index);
+        }
+        function showImg(n){
+            if(n==0){
+                for(var m=0; m<images.length; m++){
+                    $($(".round")[m]).css({"background-color":"#FFA986"});
+                }
+                $("#center img").attr("src",images[n]);
+                $($(".round")[n]).css({"background-color":"#F6F6F7"});
+
+            }else{
+                for(var m=0; m<images.length; m++){
+                    $($(".round")[m]).css({"background-color":"#F6F6F7"});
+                }
+                $("#center img").attr("src",images[n]);
+                $($(".round")[n]).css({"background-color":"#ff6a00"});
+            }
+        }
+
+
+        // 点击切换
+        $(".top-bottom li").click(function(){
+            var m=($(".top-bottom li").index($(this)[0]));
+            clearInterval(timer);
+            showImg(m);
+            index = m; // 改变当前图片索引
+            timer = setInterval(run, 3000);
+        })
+    })
+
+    $(function (){
+			var token=localStorage.getItem('token');
+			if(token!=null){
+				$.ajax({
+					type: "GET",
+					data: {token:token},
+			        url: "http://playground.it266.com/profile",
+			        dataType: "json",
+			        success: function (result) {
+			        	// console.log(result.data);
+			        	if(result.status){
+				            $(".user-info-no-login").hide();
+				            $(".login-success").show();
+				            $(".username").html(`&nbsp;${result.data.username}`);
+				            $(".avatar").attr('src',result.data.avatar);
+				            $(".point").html(result.data.point);
+				            $(".mes").html(result.data.message);
+				            $(".balance").html(result.data.balance);
+				        }
+			        },
+			        error:function(){
+			        	alert("出错了");
+			        }
+				})
+			}
+		})
+
+</script>
+</html>

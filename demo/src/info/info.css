@@ -1,0 +1,33 @@
+#background{
+    background:#eee;
+}
+.content,.con-top{
+    margin-top:20px;
+    background:white;
+    border:none;
+}
+.con-top{
+    display:flex;
+    font-size:40px;
+    padding:20px;
+}
+.con-top .top-text{
+    flex:1;
+    text-align: center;
+}
+.con-activ,.con-m{
+    display:flex;
+    font-size:35px; 
+    padding:30px;
+    border-bottom: 1px solid #eee;
+}
+.text{
+    flex:1;
+}
+.jiantou{
+    color:#bbb;
+    margin-right:15px;
+}
+.tactiv{
+    line-height: 200px;
+}

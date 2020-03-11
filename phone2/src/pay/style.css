@@ -1,0 +1,76 @@
+div,input,span{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.Pay{
+    width: 100%;
+    height:512px;
+    border: #8000FF 1px solid;
+}
+.Pay .Title{
+    height: 40px;
+    border-bottom: 1px solid #DBDCDD;
+    text-align: center;
+    line-height: 40px;
+}
+.Pay .Title .Return{
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: inline-block;
+    background-image: url("../image/return.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.Pay .Cost div{
+    height: 80px;
+    width: 100%;
+}
+.Pay .Cost input{
+    display: inline-block;
+    height: 20px;
+}
+.Pay .Cost span{
+    display: inline-block;
+    height: 20px;
+    float: right;
+}
+.Pay .Cost .Year,.Mouth{
+    border-bottom: 1px solid gray;
+}
+.Pay .Bottom{
+    position: absolute;
+    top: 382px;
+    width: 100%;
+    height: 140px;
+}
+.Pay .Bottom .Title{
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+}
+.Pay .Bottom .Title .S2{
+    color: red;
+}
+.Pay .Bottom .Title .S1,.S2{
+    float: left;
+}
+.Pay .Bottom .Title .S3{
+    float: right;
+}
+.Pay .Bottom .Submit{
+    height: 100px;
+    width: 100%;
+    background: #181818;
+}
+.Pay .Bottom .Submit button{
+    margin: 10px 10% 40px 10%;
+    height: 50px;
+    width: 80%;
+    background: #57A6DB;
+    color: white;
+    border: none;
+    font-size: 20px;
+}

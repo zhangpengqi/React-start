@@ -1,0 +1,27 @@
+body,div,span,input,button,p{
+    margin:0;
+    padding:0;
+}
+.top{
+    font-size:35px;
+    display:flex;
+}
+.top span{
+    padding:15px;
+}
+.top .top-text{
+    flex:1;
+    text-align:center;
+}
+.top span:hover{
+    cursor:default;
+}
+.top-bottom{
+    width:100%;
+    background-color:#eee;
+    color:#666;
+    border-top:1px solid #ccc;
+    text-align:center;
+    padding:15px;
+    font-size:25px;
+}

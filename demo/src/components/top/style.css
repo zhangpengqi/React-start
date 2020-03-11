@@ -1,0 +1,11 @@
+.Nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.Nav li {
+    float: left;
+    margin-right: 5px;
+}
+

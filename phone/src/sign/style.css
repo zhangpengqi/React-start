@@ -1,0 +1,212 @@
+div,span,input,button,span{
+    margin: 0;
+    padding: 0;
+}
+.Sign{
+    height: 300px;
+}
+.Sign .SignTop{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.Sign .SignTop .Return{
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-image: url("../image/prevPage.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left center;
+}
+.Sign .Title{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    background: #F0F0F0;
+    border-top: 1px solid #CCCBCC;
+}
+.Sign .Location{
+    margin: 0 10%;
+    height: 15px;
+    border-bottom: 1px solid #EEEEEF;
+    padding: 33px 0 17px 0;
+    font-size: 15px;
+    background-image: url("../image/nextPage.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 37px;
+    color: #181818;
+}
+.Sign .Location .left{
+    display: inline-block;
+    left: 0;
+}
+.Sign .Location .right{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+.Sign .Mobile{
+    margin: 0 10%;
+    height: 15px;
+    border-bottom: 1px solid #EEEEEF;
+    padding: 25px 0 25px 0;
+    font-size: 15px;
+    color: #181818;
+}
+.Sign .Mobile input{
+   margin-left:10px;
+    font-size: 15px;
+}
+.Sign .Code{
+    margin: 0 10%;
+    height: 65px;
+    border-bottom: 1px solid #EEEEEF;
+    font-size: 15px;
+    color: #181818;
+}
+.Sign .Mobile .Mobile-error-active{
+    display: block;
+    height: 12px;
+    font-size: 12px;
+    margin: 30px 0 0 0;
+    color: #E5593F;
+}
+.Sign .Mobile .Mobile-error-none{
+    display: none;
+    height: 12px;
+    font-size: 12px;
+    margin: 30px 0 0 0;
+    color: #E5593F;
+}
+.Sign .Code .input{
+    width: 180px;
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.Sign .Code .button{
+    width: 80px;
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: solid 1px #1D91C4;
+    border-radius: 3px;
+    background: white;
+    color: #1D91C4;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+}
+.Sign input{
+    border: none;
+    outline: none;
+}
+
+
+
+.Sign .Password{
+    margin: 0 10%;
+    height: 15px;
+    border-bottom: 1px solid #EEEEEF;
+    padding: 25px 0 25px 0;
+    font-size: 15px;
+    color: #181818;
+}
+.Sign .Password input{
+    margin-left:10px;
+    font-size: 15px;
+}
+
+
+
+
+
+.Submit{
+    margin: 10px 10% 0px 10%;
+}
+.Submit .CodeInfo{
+    font-size: 12px;
+    color: #AFAFB0;
+}
+.Submit .CodeInfo .Code-error-none{
+    display: none;
+}
+.Submit .CodeInfo .Code-error{
+    float: left;
+    color: #E5593F;
+}
+.Submit .CodeInfo .CodeChange{
+    float: right;
+}
+.Submit .CodeInfo .CodeChangeButton{
+    float: right;
+    color: #1D91C4;
+}
+.Submit button{
+    background: #1D91C4;
+    height: 50px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+}
+.box{
+    width: 205px;
+    height: 225px;
+    position: fixed;
+    top: 50px;
+    left: 60px;
+    padding: 20px 30px 20px 30px;
+    background: white;
+}
+.box .title{
+    text-align: center;
+}
+.Sign .box .Code{
+    margin:20px 0 0 0;
+    height: 60px;
+}
+.Sign .box .Code img{
+    float: left;
+    height: 60px;
+    width: 128px;
+}
+.Sign .box .Code span{
+    float: left;
+    height: 60px;
+    width: 50px;
+    line-height: 60px;
+    color: #E5593D;
+}
+.box .Input{
+    margin-top: 16px;
+    height: 32px;
+    padding: 8px 0px;
+    border-bottom: 1px solid #EEEEEF;
+}
+.box .Input input{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 15px;
+}
+.Sign .box button{
+    display: block;
+    background: #1D91C4;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+.Sign .box-none{
+    display: none;
+}

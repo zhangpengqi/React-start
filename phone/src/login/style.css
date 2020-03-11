@@ -1,0 +1,225 @@
+div,span,input,button,span{
+    margin: 0;
+    padding: 0;
+}
+.Login{
+    height: 300px;
+}
+.Login .LoginTop{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-image: url("../image/prevPage.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left center;
+
+}
+.Login .Title{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    background: #F0F0F0;
+    border-top: 1px solid #CCCBCC;
+}
+.Login .Title .Link{
+    font-size: 15px;
+    text-decoration: none;
+    color: #E5593F;
+    cursor: pointer;
+}
+.Login .Location{
+    margin: 0 10%;
+    height: 15px;
+    border-bottom: 1px solid #EEEEEF;
+    padding: 33px 0 17px 0;
+    font-size: 15px;
+    background-image: url("../image/nextPage.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 37px;
+    color: #181818;
+}
+.Login .Location .left{
+    display: inline-block;
+    left: 0;
+}
+.Login .Location .right{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+.Login .Mobile{
+    margin: 0 10%;
+    height: 15px;
+    border-bottom: 1px solid #EEEEEF;
+    padding: 25px 0 25px 0;
+    font-size: 15px;
+    color: #181818;
+}
+.Login .Mobile input{
+   margin-left:10px;
+    font-size: 15px;
+}
+.Login .Code{
+    margin: 0 10%;
+    height: 65px;
+    border-bottom: 1px solid #EEEEEF;
+    font-size: 15px;
+    color: #181818;
+}
+.Login .Mobile .Mobile-error-active{
+    display: block;
+    height: 12px;
+    font-size: 12px;
+    margin: 30px 0 0 0;
+    color: #E5593F;
+}
+.Login .Mobile .Mobile-error-none{
+    display: none;
+    height: 12px;
+    font-size: 12px;
+    margin: 30px 0 0 0;
+    color: #E5593F;
+}
+.Login .Code .input{
+    width: 180px;
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.Login .Code .button{
+    width: 60px;
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: solid 1px #1D91C4;
+    border-radius: 3px;
+    background: white;
+    color: #1D91C4;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+}
+.Login input{
+    border: none;
+    outline: none;
+}
+
+
+
+.Login .Password{
+    margin: 0 10%;
+    height: 15px;
+    border-bottom: 1px solid #EEEEEF;
+    padding: 25px 0 25px 0;
+    font-size: 15px;
+    color: #181818;
+}
+.Login .Password input{
+    margin-left:10px;
+    font-size: 15px;
+}
+
+
+
+
+
+.Submit{
+    margin: 10px 10% 0px 10%;
+}
+.Submit .CodeInfo{
+    font-size: 12px;
+    color: #AFAFB0;
+}
+.Submit .CodeInfo .Code-error-none{
+    display: none;
+}
+.Submit .CodeInfo .Code-error{
+    float: left;
+    color: #E5593F;
+}
+.Submit .CodeInfo .CodeChange{
+    float: right;
+}
+.Submit .CodeInfo .CodeChangeButton{
+    float: right;
+    color: #1D91C4;
+}
+.Submit button{
+    background: #1D91C4;
+    height: 50px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+}
+.Login .Show{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba( 0,0,0,0.5);/*门板效应，背景为半透明*/
+}
+.Login .Hide{
+    display: none;
+}
+.box{
+    width: 205px;
+    height: 225px;
+    position: fixed;
+    top: 50px;
+    margin: 30px auto;
+    padding: 20px 30px 20px 30px;
+    background: white;
+}
+.box .title{
+    text-align: center;
+}
+.Login .box .Code{
+    margin:20px 0 0 0;
+    height: 60px;
+}
+.Login .box .Code img{
+    float: left;
+    height: 60px;
+    width: 128px;
+}
+.Login .box .Code span{
+    float: left;
+    height: 60px;
+    width: 50px;
+    line-height: 60px;
+    color: #E5593D;
+}
+.box .Input{
+    margin-top: 16px;
+    height: 32px;
+    padding: 8px 0px;
+    border-bottom: 1px solid #EEEEEF;
+}
+.box .Input input{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 15px;
+}
+.Login .box button{
+    display: block;
+    background: #1D91C4;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+.Login .box-none{
+    display: none;
+}

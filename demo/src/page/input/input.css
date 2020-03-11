@@ -1,0 +1,155 @@
+.input-top{
+    width:70%;
+    margin:0 auto;
+    border-bottom:1px solid #ccc;
+    display:flex;
+    font-size:30px;
+    padding:50px 0;
+    margin-top:50px;
+}
+.input-top .input-text{
+    flex:1;
+}
+.phone,.pwd{
+    flex:1;
+    font-size:35px;
+    border:none;
+    outline:none;
+}
+.phone{ 
+    text-indent:2em;
+}
+.input-yyy{
+    width:70%;
+    margin:0 auto;
+    border-bottom:1px solid #ccc;
+    display:flex;
+    font-size:30px;
+    padding:50px 0;
+}
+.yzm{
+    font-size:35px;
+    border:none;
+    outline:none;
+}
+.input-yzm{
+    flex:1;
+    text-align:right;
+}
+.input-yzm .getyzm{
+    color:#0084ff;
+    width:142px;
+    background-color:white;
+    border:1px solid #0084ff;
+    font-size:20px;
+    border-radius:5px;
+    padding:10px 20px;
+    outline:none;
+}
+.input-login{
+    margin-top:30px;
+    text-align:center;
+}
+.login{
+    width:70%;
+    padding:20px;
+    background-color:#0084ff;
+    border:none;
+    outline:none;
+    color:white;
+    font-size:30px;
+    border-radius:10px;
+}
+
+.error{
+    width:70%;
+    margin:0 auto;
+    font-size:25px;
+    display:flex;
+}
+#num{
+    color:#ff0056;
+    flex:1;
+}
+.error a{
+    text-decoration:none;
+    color:#0084ff;
+}
+.phidd,.yhidd{
+    opacity:0;
+}
+.pshow,.yshow{
+    opacity:1;
+}
+.back{
+    display:none;
+}
+.background{
+    display:block;
+    width: 105%;
+    height:120%;
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+}
+.back-box{
+    width:70%;
+    height:600px;
+    background:white;
+    border-radius:10px;
+    margin:200px auto;
+}
+
+.box-top{
+    width:100%;
+    text-align:center;
+    padding:20px;
+    font-size:35px;
+    margin-top:30px;
+}
+.box-img{
+    width:70%;
+    padding:20px;
+    margin:50px auto;
+    display:flex;
+    margin-top:30px;
+}
+.box-img img{
+    width:200px;
+    vertical-align:middle;
+}
+.box-img span{
+    flex:1;
+    text-align:right;
+    font-size:30px;
+    color:red;
+}
+.box-input{
+    width:70%;
+    margin:50px auto;
+    padding:20px;
+}
+.box-input input{
+    width:100%;
+    font-size:40px;
+    padding:20px;
+    outline:none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+.box-butt{
+    width:70%;
+    margin:50px auto;
+}
+.box-butt button{
+    width:100%;
+    background:#0084ff;
+    padding:20px;
+    border:none;
+    outline:none;
+    color:white;
+    font-size:30px;
+    border-radius:10px;
+}

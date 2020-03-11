@@ -1,0 +1,229 @@
+div,input,span{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.Article{
+    width: 100%;
+    height:100%;
+}
+.Article .Top{
+    height: 40px;
+    border-bottom: 1px solid #DBDCDD;
+}
+.Article .Top .Return{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url("../../image/return.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.Article .Article-title{
+    height: 80px;
+    width: 100%;
+    font-size: 30px;
+    word-break:break-all;
+    line-height: 40px;
+}
+
+.Article .Article-title .Key{
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    background-image: url("../../image/key.png");
+    background-size: 20px 10px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Article .Article-created{
+    height: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+.Article .Article-content{
+    height: 600px;
+    line-height: 30px;
+    font-size: 22px;
+    overflow: hidden;
+}
+.Article .Article-content .Subscription{
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    background-color: rgba(255,255,255,1);
+}
+.Article .Article-content .Subscription .Vip{
+    height: 200px;
+    width: 100%;
+    background: #3C4A68;
+    text-align: center;
+}
+.Article .Article-content .Subscription .Vip .Title,.Login{
+    line-height: 75px;
+    font-size: 20px;
+    color: #E4E6EB;
+    height: 75px;
+    width: 100%;
+}
+.Article .Article-content .Subscription .Vip .Go{
+    line-height: 50px;
+    font-size: 22px;
+    color: #3C4A68;
+    background: #B0DBF3;
+    margin: 0 13% 0 13%;
+    height: 50px;
+    width: 74%;
+}
+.Article .Article-content .Subscription .Logo{
+    height: 40px;
+    width: 72%;
+    padding: 40px 14% 20px 14%;
+    text-align: center;
+    border-bottom: 5px solid #E4E6E8;
+}
+.Article .Article-content .Subscription .Logo span{
+    width: 20%;
+    height: 40px;
+    display: inline-block;
+    margin: 0 2%;
+    line-height: 40px;
+    text-align:right;
+    font-size: 13px;
+    border: #E4E6E8 1px solid;
+    border-radius: 3px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.Article .Article-content .Subscription .Logo .g1{
+    background-image: url("../../image/WeChat.png");
+}
+.Article .Article-content .Subscription .Logo .g2{
+    background-image: url("../../image/朋友圈.png");
+}
+.Article .Article-content .Subscription .Logo .g3{
+    background-image: url("../../image/微博.png");
+}
+.Article .Bottom{
+    height: 50px;
+}
+.Article .Bottom .Comment{
+    float: left;
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    padding: 10px 3%;
+    border-radius: 3px;
+    line-height: 40px;
+    outline: none;
+}
+.Article .Bottom span{
+    display: inline-block;
+    height: 30px;
+    width: 7%;
+    line-height: 30px;
+    padding: 10px 4%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Article .Bottom .Comment-list{
+    background-image: url("../../image/Comment-list.png");
+}
+.Article .Bottom .Support{
+    background-image: url("../../image/Support.png");
+}
+.Article .Bottom .WeChat{
+    background-image: url("../../image/WeChat.png");
+}
+.Article .Bottom .More{
+    background-image: url("../../image/More.png");
+}
+.Article .None{
+    display: none;
+}
+.Article .Comment-open{
+    position: absolute;
+    width: 100%;
+    height:762px;
+    top:0px;
+    background-color: rgba(255,255,255,1);
+}
+.Article .Comment-open .Title{
+    height: 40px;
+    border-bottom: 1px solid #DBDCDD;
+    text-align: center;
+    line-height: 40px;
+}
+.Article .Comment-open .Title .Return{
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: inline-block;
+    background-image: url("../../image/return.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.Article .Comment-open .Comment{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid gray;
+}
+.Article .Comment-open .Comment .top{
+    height: 20px;
+}
+.Article .Comment-open .Comment .Kong{
+    height: 20px;
+}
+.Article .Comment-open .Comment .Avatar{
+    float: left;
+    width: 13%;
+    height: 40px;
+    border-radius: 50%;
+}
+.Article .Comment-open .Comment .Nickname{
+    float: left;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.Article .Comment-open .Comment .Comment-content{
+    margin-left: 60px;
+    font-size: 20px;
+}
+.Article .Comment-open .Comment .Zan span{
+    display: inline-block;
+    width: 11%;
+    height: 30px;
+    text-align: right;
+}
+
+
+.Article .Comment-open .Comment .Up,.Down,.Return{
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Article .Comment-open .Comment .Up{
+    background-image: url("../../image/up.png");
+    text-align: left;
+}
+.Article .Comment-open .Comment .Down{
+    background-image: url("../../image/down.png");
+    margin: auto 33%;
+}
+.Article .Comment-open .Comment .Return{
+    background-image: url("../../image/return1.png");
+    float: right;
+}
+

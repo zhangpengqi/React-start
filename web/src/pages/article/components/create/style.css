@@ -1,0 +1,37 @@
+div,input{
+    margin: 0;
+    padding: 0;
+}
+.create{
+    margin: 150px auto;
+    width: 300px;
+    height: 200px;
+    background-color: #999999;
+
+}
+.create .title{
+    height: 30px;
+    font-size: 20px;
+    background-color: #1D91C4;
+}
+.create .text{
+    margin-top: 20px;
+    background-color: #999999;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.create input{
+
+    display: inline-block;
+    height: 20px;
+}
+.create button{
+    background-color: #1D91C4;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 110px ;
+}

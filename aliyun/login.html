@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        .all{
+            position: relative;
+            background-color: #fff;
+            margin: 150px auto;
+            width: 400px;
+            height: 500px;
+            padding: 10px;
+        }
+        .title{
+            position: relative;
+            height: 50px;
+            margin-top: 30px;
+
+        }
+
+        p{
+			width:400px;
+			height:30px;
+			border:1px solid red;
+			background:rgba(255,0,0,0.1);
+			line-height:25px;
+			text-indent:1em;
+			opacity:0;
+		}
+        input,button{
+            position: relative;
+            height: 60px;
+            width: 400px;
+            font-size: 20px;
+            border: 1px gainsboro solid;
+            margin-top: 20px;
+            text-align: left;
+            color: gray;
+
+        }
+        button{
+            background-color: #ff6a00;
+            color: white;
+            text-align: center;
+            border: 1px #ff6a00 solid;
+        }
+        .bottom{
+            margin-top: 20px;
+            text-align: right;
+        }
+        .bottom a{
+            color: gray;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+            <h3 class="title">密码登录</h3>
+            <p class="hide">登录名或登录密码不正确</p>
+            <input type="text" name="username" class="username" placeholder="邮箱/会员名/ID"><br/>
+            <input type="password" name="password" class="password" placeholder="请输入登录密码"><br/>
+            <button class="login">登录</button>
+            <div class="bottom">
+                <a href="/">忘记密码</a>
+                <a href="/">忘记会员名</a>
+                <a href="/">免费注册</a>
+            </div>
+    </div>
+   <script>
+       var all=document.getElementsByClassName("all")[0];
+       var p=all.getElementsByTagName("p")[0];
+       $(function(){
+            $(".login").click(function(){
+                var username=$(".username").val();
+                var password=$(".password").val();
+                if(username.length<4||password.length==0){
+                    $("p").css({"opacity":"1"});
+                    console.log("错了");
+                    return;
+                }
+                    console.log("对了");
+                $.ajax({
+                    type:"POST",
+                    url:"http://playground.it266.com/login",
+                    data:{"username":username,"password":password},
+                    dataType:"json",
+                    success:function(result){
+                        if(result.status){
+                            window.localStorage.setItem('token',result.data.token);
+                            alert("登录成功");
+                            location.href='ali.html';
+                        }else{
+                            $("p").css({"opacity":"1"});
+                        }
+                    },
+                    error:function(){
+                        alert('出错了');
+                    }
+                });
+            })
+       });
+   </script> 
+</body>
+</html>

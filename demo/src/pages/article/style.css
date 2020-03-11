@@ -1,0 +1,310 @@
+input,ul,li{
+    margin: 0px;
+    padding: 0px;    
+}
+.article-content-back{
+    width: 100%;
+    height:30px;
+    font-size: 24px;
+    border-bottom:1px #b2b2b2 solid;
+    
+}
+.article-content-back-left{
+    width:30px;
+    height: 30px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.article-content-title{
+    width: 94%;
+    margin:0 auto;
+    font-size: 24px;   
+    text-align: center;
+    margin: 15px  0;
+}
+.article-content-time{
+    font-size: 12px;
+    color:#b2b2b2;
+    margin-left: 3%;
+    
+}
+.article-content-till{
+    width: 85%;
+    height: 100px;
+    padding-top:20px;
+    box-sizing:border-box;
+    margin:0 auto;
+    background:#f0f0f0;
+    
+}
+.article-content-till p{
+    width: 80%;
+    height: 60px;
+    color:#a9a9a9;
+    margin:0 auto;
+}
+.article-content-content{
+    width: 89%;
+    margin: 0 auto;
+    font-size:17px;
+    text-indent: 1em;
+}
+.article-content-a{
+    position: absolute;
+    left:0;
+    top:25%;
+    height: 30px;
+    width:100%;
+    background:white;
+    text-align: center;
+}
+.article-content-c{
+    position: absolute;
+    left:0;
+    top:30%;
+    height: 200px;
+    width:100%;
+    background:#000080;
+    opacity: 1;
+}
+.article-content-content span{
+    line-height: 30px;
+    color:#661a03
+}
+.article-content-buttom{
+    width: 100%;
+    height: 45px;
+    background:white;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+}
+.article-content-buttom ul{
+    margin-top:5px;    
+}
+.article-content-buttom ul li input{
+    width: 100%;
+    height: 30px;
+    margin-top:0px;
+    background:#e0dfdf;
+    outline:none;
+    border:none;
+}
+.article-content-buttom ul li{
+    text-decoration: none;
+    list-style: none;
+    float:left;
+    margin-left: 5%;
+}
+.article-content-one{
+    margin:0 auto;
+    width: 80%;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    color: white;
+}
+.article-content-two{
+    margin:0 auto;
+    width: 80%;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    background:#87CEFA;
+    color: 	#4169E1;
+}
+.article-content-three{
+    margin:0 auto;
+    width: 80%;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    
+}
+.article-content-three Link{
+    color: white;
+
+}
+.comment-ul{
+    width:100%;
+}
+.comment-log{
+    width: 20%;
+    background-color: #87CEFA;
+}
+/* .comment-log span{
+    display: none;
+    background:blue;
+} */
+#span{
+    background:rgb(109, 173, 83);
+}
+.comment-map{
+    width: 100%;
+    height: 120px;
+}
+.comment-map::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.comment-map-left{
+    width:15%;
+    height:120px;
+    float:left;
+}
+.comment-map-reight{
+    width:75%;
+    height:120px;
+    margin-left:15%;
+
+}
+.comment-map-left-img{
+    width: 56px;
+    height: 56px;
+    border-radius:100%;
+    background:pink;
+    margin-top:50%;
+    overflow: hidden;
+}
+.comment-map-left-img img{
+    width:56px;
+    height:56px;
+}
+.comment-name{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.comment-from{
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    font-size:14px;
+    color:#535353;
+}
+.comment-content{
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.comment-sup ul:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.comment-sup ul li{
+    float: left;
+    list-style:none;
+    margin-top: 10px;
+    margin-left:10%
+}
+.comment-sup ul li img{
+    width:25px;
+    height: 25px;
+}
+.comment-bot{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.comment-bot input{
+    width: 80%;
+    height: 50px;
+}
+.comment-bot button{
+    width: 18%;
+    height: 30px;
+    margin-bottom:0px;
+}
+.pay-content{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+#pay-radio1{
+    width: 22px;
+    height: 110px;
+    line-height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+#pay-able1{
+    height: 80px;
+    line-height: 80px;
+    float: right;
+    margin-right: 10px;
+    font-size: 25px;
+}
+#pay-radio2{
+    width: 22px;
+
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+#pay-able2{
+    height: 80px;
+    line-height: 80px;
+    float: right;
+    margin-right: 10px;
+}
+#pay-introduce-t{
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+    margin:0 38px;
+    background: #eeebeb;
+    transition:1s;
+}
+#pay-introduce-t:hover{
+    width: 80%;
+    height: 550px;
+    margin:0 auto;
+    background: #eeebeb;
+    transition:1s;
+}
+#text1{
+    position: absolute;
+    left:10%;
+    top:28px;
+}
+#text2{
+    position: absolute;
+    left:10%;
+    top:363px;
+}
+.pay-for{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height: 80px;
+}
+.pay-button{
+    width:80%;
+    height: 50px;
+    margin-left:10%;
+    margin-top: 12px;
+    color:white;
+    background: rgb(88, 88, 240);
+    border-radius:10px;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+}
+
+ .box-bottom{
+    width: 105%;
+    height: 100px;
+    background-color: black;
+    margin: 226px -8px;
+}
+
+

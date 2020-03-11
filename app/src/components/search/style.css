@@ -1,0 +1,24 @@
+.search {
+    display: flex;
+    padding: 5px;
+}
+.search .keyWord {
+    display: inline-block;
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    background-image: url("../../images/keyWord.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 3px;
+    padding: 3px 3px 3px 30px;
+}
+.search .icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../../images/icon1.png");
+    background-size: 30px 30px;
+}

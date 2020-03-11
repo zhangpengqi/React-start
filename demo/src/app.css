@@ -1,0 +1,71 @@
+
+table, table tr th, table tr td {
+    border: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    padding: 5px 10px;
+}
+
+
+.form-item {
+    display: inline-block;
+    height: 25px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 4px
+}
+
+input.form-item {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+button.form-item {
+    height: 28px;
+}
+
+select.form-item {
+    height: 30px;
+}
+
+.pagination {
+    height: 30px;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.pagination a, .pagination span {
+    border: #dddddd 1px solid;
+    text-decoration: none;
+    color: #666666;
+    padding: 4px 10px;
+    margin: 0 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination a:hover, .pagination span {
+    border: #a0a0a0 1px solid;
+}
+
+.pagination .active {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.pagination .disabled {
+    border: #f3f3f3 1px solid;
+    color: #aaaaaa;
+}
+

@@ -1,0 +1,36 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.article{
+    width: 100%;
+    height: 82px;
+    border-bottom: 1px darkgray solid;
+}
+.article-left{
+    float: left;
+    width: 55%;
+    height: 81px;
+    background-color: white;
+}
+.article-left-top{
+    margin-top: 11px;
+    height: 47px;
+    font-size: 16px;
+}
+.article-left-bottom{
+    margin-bottom: 11px;
+    height: 13px;
+    font-size: 11px;
+}
+.article-right{
+    height: 82px;
+    float: right;
+    width: 35%;
+}
+.article-right img{
+    width: 100%;
+    height: 56px;
+    margin-top: 11px;
+}
