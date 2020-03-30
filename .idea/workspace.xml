@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a3767ba-318b-420b-af60-79a30e48b7fe" name="Default Changelist" comment="" />
+    <list default="true" id="0a3767ba-318b-420b-af60-79a30e48b7fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +20,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project-demo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1XYjibqIIoilppZuwjM0RFjjecx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,25 +41,20 @@
     <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phone2/src" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Code\phone2\src" />
-      <recent name="C:\Code\phone2\src\pay" />
-      <recent name="C:\Code\phone2\src\articleList" />
-      <recent name="C:\Code\phone2\src\login" />
-      <recent name="C:\Code\phone2\src\articleList\article" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Code\phone2\src\articleList" />
       <recent name="C:\Code\phone2\src\articleList\article" />
@@ -57,26 +62,37 @@
       <recent name="C:\Code\phone2\src\commentList" />
       <recent name="C:\Code\phone2\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitRepos\React-start\huawei" />
+      <recent name="C:\GitRepos\React-start\aliyun" />
+      <recent name="C:\Code\phone2\src" />
+      <recent name="C:\Code\phone2\src\pay" />
+      <recent name="C:\Code\phone2\src\articleList" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ali.html">
+  <component name="RunManager" selected="Node.js.index.js (1)">
     <configuration name="ali.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Code/aliyun/ali.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/React-start/aliyun/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Code/aliyun/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Code/aliyun/test.html" useBuiltInWebServerPort="true">
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/src/index.js" working-dir="$PROJECT_DIR$/test/src">
       <method v="2" />
     </configuration>
-    <configuration name="text.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Code/aliyun/text.html" useBuiltInWebServerPort="true">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/src/index.js" working-dir="$PROJECT_DIR$/web/src">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (1)" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.login.html (1)" />
         <item itemvalue="JavaScript Debug.ali.html" />
         <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.text.html" />
-        <item itemvalue="JavaScript Debug.test.html" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +151,26 @@
       <workItem from="1583493475495" duration="4000" />
       <workItem from="1583817448011" duration="17000" />
       <workItem from="1583817491687" duration="839000" />
+      <workItem from="1584757527438" duration="2741000" />
+      <workItem from="1584943965042" duration="1064000" />
+      <workItem from="1584953689468" duration="2179000" />
+      <workItem from="1585019792045" duration="1307000" />
+      <workItem from="1585060485133" duration="1055000" />
+      <workItem from="1585317821721" duration="2587000" />
+      <workItem from="1585323651042" duration="975000" />
+      <workItem from="1585324759007" duration="134000" />
+      <workItem from="1585357853179" duration="167000" />
+      <workItem from="1585358384344" duration="225000" />
+      <workItem from="1585358671168" duration="1391000" />
+      <workItem from="1585360086458" duration="1411000" />
+      <workItem from="1585371065197" duration="692000" />
+      <workItem from="1585486775443" duration="1019000" />
+      <workItem from="1585562966699" duration="451000" />
+      <workItem from="1585568920628" duration="368000" />
+      <workItem from="1585569306557" duration="2083000" />
+      <workItem from="1585575166667" duration="179000" />
+      <workItem from="1585575373413" duration="1719000" />
+      <workItem from="1585577108598" duration="1486000" />
     </task>
     <servers />
   </component>
@@ -142,6 +178,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="378" y="106" key="#Usage_Scope" timestamp="1585358848117">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="378" y="106" key="#Usage_Scope/0.0.1536.834@0.0.1536.834" timestamp="1585358848117" />
     <state x="0" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581253820016">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -154,26 +194,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="504" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1583206547542" />
-    <state x="554" y="119" key="FileChooserDialogImpl" timestamp="1581297085784">
+    <state x="554" y="119" key="FileChooserDialogImpl" timestamp="1585569093375">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="554" y="119" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581297085784" />
-    <state width="1515" height="301" key="GridCell.Tab.0.bottom" timestamp="1582338922172">
+    <state x="554" y="119" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1585569093375" />
+    <state width="757" height="453" key="GridCell.Tab.0.bottom" timestamp="1585577094624">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="301" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582338922172" />
-    <state width="1515" height="301" key="GridCell.Tab.0.center" timestamp="1582338922172">
+    <state width="757" height="453" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1585577094624" />
+    <state width="757" height="453" key="GridCell.Tab.0.center" timestamp="1585577094624">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="301" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582338922172" />
-    <state width="1515" height="301" key="GridCell.Tab.0.left" timestamp="1582338922172">
+    <state width="757" height="453" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1585577094624" />
+    <state width="757" height="453" key="GridCell.Tab.0.left" timestamp="1585577094624">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="301" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582338922172" />
-    <state width="1515" height="301" key="GridCell.Tab.0.right" timestamp="1582338922172">
+    <state width="757" height="453" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1585577094624" />
+    <state width="757" height="453" key="GridCell.Tab.0.right" timestamp="1585577094624">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="301" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582338922172" />
+    <state width="757" height="453" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1585577094624" />
     <state width="1515" height="301" key="GridCell.Tab.1.bottom" timestamp="1582338922172">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -222,10 +262,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="301" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1582338922172" />
-    <state x="287" y="90" key="SettingsEditor" timestamp="1583817607315">
+    <state x="287" y="90" key="SettingsEditor" timestamp="1585578031561">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="287" y="90" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583817607315" />
+    <state x="287" y="90" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1585578031561" />
     <state x="602" y="217" width="561" height="524" key="StructurePopup" timestamp="1582542637618">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -278,6 +318,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="447" y="16" width="642" height="801" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1582463551120" />
+    <state x="503" y="256" key="jetbrains.nodejs.interpreters-dialog" timestamp="1585569095253">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="503" y="256" key="jetbrains.nodejs.interpreters-dialog/0.0.1536.834@0.0.1536.834" timestamp="1585569095253" />
     <state x="425" y="191" key="run.anything.popup" timestamp="1581232211494">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

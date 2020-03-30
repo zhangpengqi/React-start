@@ -1,0 +1,26 @@
+body, ul, ol, dl, dt dd, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 16px;
+    font-family: 微软雅黑, sans-serif;
+    background: #f8f9fa;
+    overflow-x: hidden;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+}
+.clearfix::after{
+            content: '';
+            display: block;
+            clear: both;
+}
