@@ -34,6 +34,10 @@ class Login extends React.Component{
                     image:result.data.data.url,
                     captcha_key:result.data.data.key,
                     disabled:"disabled"
+                },()=>{
+                    console.log("图片地址");
+                    console.log(this.state.image);
+                    console.log(this.state.captcha_key)
                 })
             }
         }).catch((error)=>{
@@ -62,6 +66,7 @@ class Login extends React.Component{
                     'captcha_key':this.state.captcha_key
                 })
             }).then(((result)=>{
+                console.log(result);
                 console.log(result.data)
                 alert(result.data.data)
                 // this.setState({verify:result.data})

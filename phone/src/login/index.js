@@ -36,7 +36,8 @@ class Login extends React.Component{
                     captcha_key:result.data.data.key,
                     disabled:"disabled",
                     background:"Show"
-                })
+                },()=>console.log(this.state.image))
+
         }).catch((error)=>{
             console.log(error)
         })
@@ -85,9 +86,10 @@ class Login extends React.Component{
         }).then((result)=> {
             console.log(result)
             if (result.data.status) {
-                this.setState({token: result.data.data.token})
+                this.setState({token: result.data.data.token},()=>console.log(this.state.token))
                 localStorage.setItem('token',result.data.data.token)
                 this.getUserInfo(val)
+
             }
             if (result.data.data==='帐号或密码不匹配'){
                 alert(result.data.data)
@@ -113,6 +115,8 @@ class Login extends React.Component{
                     'avatar_url':result.data.data.avatar_url,
                     'token':this.state.token,
                 }
+                console.log("avatar_url");
+                console.log(result.data.data.avatar_url);
                 console.log(result);
                 val.setUser(user)
                 localStorage.setItem('user',qs.stringify(user));

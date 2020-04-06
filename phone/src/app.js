@@ -4,7 +4,6 @@ import Article from "./pages/article";
 import {HashRouter,Switch,Route} from "react-router-dom";
 import Sign from "./sign";
 import Login from "./login"
-import qs from "qs"
 import UserInfo from "./pages/userInfo"
 
 //设置上下文

@@ -1,0 +1,59 @@
+div,input{
+    margin: 0;
+    padding: 0;
+}
+.create{
+    margin: 150px 600px;
+    width: 400px;
+    height: 400px;
+    background-color: #999999;
+
+}
+.create .title{
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #1D91C4;
+}
+.create .id,.name{
+    margin-top: 20px;
+    background-color: #999999;
+    height: 30px;
+    width: 360px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.create .id input{
+    width: 80%;
+}
+.create .name input{
+    width: 70%;
+}
+.create .describe{
+    margin-top: 20px;
+}
+.create .describe textarea{
+    background-color: white;
+    height: 120px;
+    line-height: 30px;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 20px;
+}
+.create input{
+    left:100px;
+    display: inline-block;
+    height: 20px;
+}
+.create .submit{
+    margin-top: 20px;
+}
+.create button{
+    background-color: #1D91C4;
+    text-align: center;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 150px;
+}
